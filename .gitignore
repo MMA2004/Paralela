@@ -1,0 +1,36 @@
+# Compiled binaries and object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+*.app
+
+# Exercise compiled binaries (Unix/Linux executables without extension)
+ex[0-9]*
+!ex[0-9]*.cpp
+!ex[0-9]*.c
+!ex[0-9]*.h
+!ex[0-9]*.hpp
+
+# Debugger and profiling artifacts
+*.dSYM/
+*.su
+*.idb
+*.pdb
+gmon.out
+
+# IDE and editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
